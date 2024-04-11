@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+body {
+  background-image: url(/Assets/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  color: black; 
+}
+
+.navbar-brand:hover {
+  color: black;
+}
+
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.search {
+  height: 40px;
+  width: 80%;
+  border-radius: 60px;
+  outline: none;
+  margin-right: -40px;
+  border: 2px solid rgb(248, 26, 92);
+}
+
+.btn {
+  height: 28px;
+  width: 50px;
+  outline: none;
+  border: none;
+  box-sizing: content-box;
+  border-radius: 50px;
+  background: rgb(248, 26, 92);
+  color: white;
+  font-weight: 700;
+}
+
+/* .main {
+    background: url(/Assets/pic.png)no-repeat;
+    background-size: contain;
+    background-position: 10% 0%;
+    margin-top:200px ;
+    height: 110vh;
+    width: 100%;
+} */
+/* 
+.main h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-position: 40% 50%;
+    margin-left: 500px;
+    margin-top: 100px;
+} */
+
+.btn1 {
+  height: 45px;
+  width: 30%;
+  border: none;
+  outline: none;
+  background-color: rgb(248, 26, 92);
+  margin-left: 600px;
+  margin-top: 10px;
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+}
+
+.home {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  background-color: blanchedalmond;
+}
+
+.footer .contacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.footer .contacts .box {
+  flex: 1 1 30rem;
+}
+
+.footer .contacts .box a {
+  display: block;
+  padding: 1rem 0;
+  font-size: 2rem;
+}
+
+.footer .contacts .box a span {
+  color: magenta;
+}
+
+.footer .contacts .box a i {
+  color: white;
+}
+
+.footer .contacts .box:last-child {
+  text-align: right;
+}
+
+.footer .contacts .box:last-child a i {
+  margin-left: 1rem;
+}
+
+.footer .contacts .box:first-child a {
+  margin-right: 1rem;
+} 
+
+.footer .credit {
+  padding: 3rem 2rem;
+  text-align: center;
+  border-top: 0px;
+  font-size: 10px;
+  margin-top: 2rem;
+}
